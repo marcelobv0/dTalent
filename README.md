@@ -1,6 +1,6 @@
 # setup del server -> correr en terminal
 1. Clonar repositorio
-git clone https://github.com/yourusername/dtalent-backend.git
+git clone https://https://github.com/marcelobv0/dTalent/
 cd dtalent-backend
 2. Crear y activar un entorno virtual
 python -m venv .venv && source .venv/bin/activate #mac 
