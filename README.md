@@ -9,7 +9,7 @@ python -m venv .venv && source .venv/Scripts/activate #windows
 pip install -r requirements.txt
 4. crear un archivo .env
 Crear un archivo .env en el directorio base (donde se encuentra el manage.py) con el archivo .env disponible como ejemplo.
-5. creación de la base de datos
+5. creación de la base de datos (postgres)
 En pg admin o terminal: 
 createdb dtalent  ## nombre de la base de datos = dtalent
 6. Aplicar Migraciones
