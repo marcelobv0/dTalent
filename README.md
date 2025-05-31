@@ -31,7 +31,7 @@ http://localhost:8000/admin/
 1. Post (/users/login/, necesita de usuario y contraseña para autenticación)
 curl -X POST "http://localhost:8000/users/login/" -H "Content-Type: application/json" -d "{\"username\": \"test2\", \"password\": \"issatest23\"}"-> retorna token
  cambiar usuario y contraseña dentro de los \\ para probar con distintos usuarios. ej: \"username\": \"u33\", \"password\": \"usuario33\"
-# no usé archivos .env por simplicidad del ejemplo
+
 
 ## get
 1. usuarios (necesita token de autenticación)
